@@ -16,7 +16,6 @@ public class TestBegin {
     private static Actions actions;
 
     public void start(){
-        System.setProperty("webdriver.chrome.driver", "C:\\browserDriver\\chromedriver.exe");
 
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver,15);
