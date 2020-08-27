@@ -25,6 +25,7 @@ public class TestRuns {
         ArrayList<String> addedProduct = settings.settingsTestAddProduct(nameProduct);
         assertThat(addedProduct.size(),  equalTo(1));
         assertThat(addedProduct.get(0), equalTo(nameProduct));
+        System.out.println("!!!TEST DONE!!!");
     }
 
     @After
